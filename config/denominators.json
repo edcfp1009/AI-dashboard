@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual denominators for metrics whose denominator is not available in any connected source. Update by hand until instrumented. ltl_shipments_per_day is used for 'recommendations per LTL shipment' when no per-day LTL count exists in Mixpanel.",
+  "ltl_shipments_per_day": null
+}

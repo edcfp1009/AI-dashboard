@@ -1,0 +1,67 @@
+name: daily-refresh
+
+on:
+  schedule:
+    - cron: "30 13 * * *"   # 13:30 UTC daily — previous UTC day is complete
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: "Days to backfill (0 = just yesterday)"
+        default: "0"
+  push:
+    branches: [claude/mcp-copilot-dashboard-im4oxf, main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Fetch snapshots (live sources only; mock mode needs no secrets)
+        env:
+          DD_API_KEY: ${{ secrets.DD_API_KEY }}
+          DD_APP_KEY: ${{ secrets.DD_APP_KEY }}
+          DD_SITE: ${{ vars.DD_SITE || 'datadoghq.com' }}
+          LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+          LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+          LANGFUSE_HOST: ${{ vars.LANGFUSE_HOST || 'https://cloud.langfuse.com' }}
+          MIXPANEL_SA_USERNAME: ${{ secrets.MIXPANEL_SA_USERNAME }}
+          MIXPANEL_SA_SECRET: ${{ secrets.MIXPANEL_SA_SECRET }}
+          MIXPANEL_PROJECT_ID: ${{ secrets.MIXPANEL_PROJECT_ID }}
+        run: uv run scripts/fetch_all.py --backfill-days "${{ inputs.backfill_days || '0' }}"
+
+      - name: Compute metrics
+        run: uv run scripts/compute_metrics.py
+
+      - name: Commit snapshots + metrics
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ site/metrics.json
+          git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F) [skip ci]"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,477 @@
+{
+ "date": "2026-07-08",
+ "fetched_at": "2026-08-14T01:52:48+00:00",
+ "mode": "mock",
+ "payload": {
+  "accessorial": {
+   "recommendations": [
+    {
+     "account_id": "acct_005",
+     "recommended": [
+      "liftgate"
+     ],
+     "shipment_id": "shp_2026-07-08_0002",
+     "trace_id": "ar_2026-07-08_0002",
+     "user_id": "u_0062"
+    },
+    {
+     "account_id": "acct_005",
+     "recommended": [
+      "liftgate"
+     ],
+     "shipment_id": "shp_2026-07-08_0003",
+     "trace_id": "ar_2026-07-08_0003",
+     "user_id": "u_0052"
+    },
+    {
+     "account_id": "acct_005",
+     "recommended": [
+      "liftgate",
+      "inside_delivery"
+     ],
+     "shipment_id": "shp_2026-07-08_0005",
+     "trace_id": "ar_2026-07-08_0005",
+     "user_id": "u_0053"
+    },
+    {
+     "account_id": "acct_006",
+     "recommended": [
+      "residential"
+     ],
+     "shipment_id": "shp_2026-07-08_0006",
+     "trace_id": "ar_2026-07-08_0006",
+     "user_id": "u_0074"
+    },
+    {
+     "account_id": "acct_006",
+     "recommended": [
+      "inside_delivery"
+     ],
+     "shipment_id": "shp_2026-07-08_0014",
+     "trace_id": "ar_2026-07-08_0014",
+     "user_id": "u_0094"
+    },
+    {
+     "account_id": "acct_006",
+     "recommended": [
+      "limited_access",
+      "liftgate"
+     ],
+     "shipment_id": "shp_2026-07-08_0016",
+     "trace_id": "ar_2026-07-08_0016",
+     "user_id": "u_0066"
+    },
+    {
+     "account_id": "acct_011",
+     "recommended": [
+      "limited_access",
+      "inside_delivery"
+     ],
+     "shipment_id": "shp_2026-07-08_0020",
+     "trace_id": "ar_2026-07-08_0020",
+     "user_id": "u_0193"
+    },
+    {
+     "account_id": "acct_016",
+     "recommended": [
+      "residential",
+      "inside_delivery"
+     ],
+     "shipment_id": "shp_2026-07-08_0025",
+     "trace_id": "ar_2026-07-08_0025",
+     "user_id": "u_0284"
+    },
+    {
+     "account_id": "acct_016",
+     "recommended": [
+      "liftgate",
+      "residential"
+     ],
+     "shipment_id": "shp_2026-07-08_0027",
+     "trace_id": "ar_2026-07-08_0027",
+     "user_id": "u_0289"
+    },
+    {
+     "account_id": "acct_017",
+     "recommended": [
+      "limited_access"
+     ],
+     "shipment_id": "shp_2026-07-08_0029",
+     "trace_id": "ar_2026-07-08_0029",
+     "user_id": "u_0307"
+    }
+   ]
+  },
+  "copilot_sessions": [
+   {
+    "account_id": "acct_003",
+    "ended_at": "2026-07-08T21:19:25+00:00",
+    "page": "quoting",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_003_u_0031_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0001"
+    ],
+    "started_at": "2026-07-08T21:09:56+00:00",
+    "tool_call_count": 6,
+    "user_id": "u_0031"
+   },
+   {
+    "account_id": "acct_005",
+    "ended_at": "2026-07-08T14:10:26+00:00",
+    "page": "tracking",
+    "query_count": 6,
+    "session_id": "cs_2026-07-08_acct_005_u_0062_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0002"
+    ],
+    "started_at": "2026-07-08T14:02:38+00:00",
+    "tool_call_count": 0,
+    "user_id": "u_0062"
+   },
+   {
+    "account_id": "acct_005",
+    "ended_at": "2026-07-08T19:12:22+00:00",
+    "page": "quoting",
+    "query_count": 4,
+    "session_id": "cs_2026-07-08_acct_005_u_0052_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T18:58:15+00:00",
+    "tool_call_count": 10,
+    "user_id": "u_0052"
+   },
+   {
+    "account_id": "acct_005",
+    "ended_at": "2026-07-08T13:34:26+00:00",
+    "page": "reports",
+    "query_count": 1,
+    "session_id": "cs_2026-07-08_acct_005_u_0053_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T13:27:24+00:00",
+    "tool_call_count": 5,
+    "user_id": "u_0053"
+   },
+   {
+    "account_id": "acct_005",
+    "ended_at": "2026-07-08T18:07:09+00:00",
+    "page": "shipments",
+    "query_count": 6,
+    "session_id": "cs_2026-07-08_acct_005_u_0053_1",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T18:00:07+00:00",
+    "tool_call_count": 2,
+    "user_id": "u_0053"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T14:40:19+00:00",
+    "page": "orders",
+    "query_count": 2,
+    "session_id": "cs_2026-07-08_acct_006_u_0074_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0006"
+    ],
+    "started_at": "2026-07-08T14:30:55+00:00",
+    "tool_call_count": 11,
+    "user_id": "u_0074"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T17:32:35+00:00",
+    "page": "quoting",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_006_u_0065_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T17:28:29+00:00",
+    "tool_call_count": 0,
+    "user_id": "u_0065"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T15:41:25+00:00",
+    "page": "tracking",
+    "query_count": 3,
+    "session_id": "cs_2026-07-08_acct_006_u_0083_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0008"
+    ],
+    "started_at": "2026-07-08T15:23:27+00:00",
+    "tool_call_count": 9,
+    "user_id": "u_0083"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T21:07:07+00:00",
+    "page": "orders",
+    "query_count": 2,
+    "session_id": "cs_2026-07-08_acct_006_u_0083_1",
+    "shipment_ids": [
+     "shp_2026-07-08_0009"
+    ],
+    "started_at": "2026-07-08T21:02:50+00:00",
+    "tool_call_count": 7,
+    "user_id": "u_0083"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T14:43:21+00:00",
+    "page": "shipments",
+    "query_count": 2,
+    "session_id": "cs_2026-07-08_acct_006_u_0090_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0010"
+    ],
+    "started_at": "2026-07-08T14:36:53+00:00",
+    "tool_call_count": 1,
+    "user_id": "u_0090"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T23:09:20+00:00",
+    "page": "tracking",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_006_u_0077_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T22:51:41+00:00",
+    "tool_call_count": 10,
+    "user_id": "u_0077"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T13:39:29+00:00",
+    "page": "shipments",
+    "query_count": 3,
+    "session_id": "cs_2026-07-08_acct_006_u_0080_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0012"
+    ],
+    "started_at": "2026-07-08T13:23:45+00:00",
+    "tool_call_count": 7,
+    "user_id": "u_0080"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T22:39:12+00:00",
+    "page": "tracking",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_006_u_0080_1",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T22:31:13+00:00",
+    "tool_call_count": 4,
+    "user_id": "u_0080"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T19:24:40+00:00",
+    "page": "tracking",
+    "query_count": 4,
+    "session_id": "cs_2026-07-08_acct_006_u_0094_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T19:12:22+00:00",
+    "tool_call_count": 11,
+    "user_id": "u_0094"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T14:43:18+00:00",
+    "page": "quoting",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_006_u_0066_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0015"
+    ],
+    "started_at": "2026-07-08T14:34:55+00:00",
+    "tool_call_count": 7,
+    "user_id": "u_0066"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T17:51:39+00:00",
+    "page": "orders",
+    "query_count": 2,
+    "session_id": "cs_2026-07-08_acct_006_u_0066_1",
+    "shipment_ids": [
+     "shp_2026-07-08_0016"
+    ],
+    "started_at": "2026-07-08T17:41:05+00:00",
+    "tool_call_count": 1,
+    "user_id": "u_0066"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T16:24:18+00:00",
+    "page": "reports",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_006_u_0096_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T16:17:13+00:00",
+    "tool_call_count": 3,
+    "user_id": "u_0096"
+   },
+   {
+    "account_id": "acct_006",
+    "ended_at": "2026-07-08T15:49:38+00:00",
+    "page": "quoting",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_006_u_0096_1",
+    "shipment_ids": [
+     "shp_2026-07-08_0018"
+    ],
+    "started_at": "2026-07-08T15:47:01+00:00",
+    "tool_call_count": 2,
+    "user_id": "u_0096"
+   },
+   {
+    "account_id": "acct_011",
+    "ended_at": "2026-07-08T22:29:39+00:00",
+    "page": "shipments",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_011_u_0187_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0019"
+    ],
+    "started_at": "2026-07-08T22:21:52+00:00",
+    "tool_call_count": 3,
+    "user_id": "u_0187"
+   },
+   {
+    "account_id": "acct_011",
+    "ended_at": "2026-07-08T15:54:04+00:00",
+    "page": "quoting",
+    "query_count": 2,
+    "session_id": "cs_2026-07-08_acct_011_u_0193_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0020"
+    ],
+    "started_at": "2026-07-08T15:41:54+00:00",
+    "tool_call_count": 4,
+    "user_id": "u_0193"
+   },
+   {
+    "account_id": "acct_011",
+    "ended_at": "2026-07-08T15:24:45+00:00",
+    "page": "quoting",
+    "query_count": 1,
+    "session_id": "cs_2026-07-08_acct_011_u_0193_1",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T15:08:27+00:00",
+    "tool_call_count": 1,
+    "user_id": "u_0193"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T17:58:19+00:00",
+    "page": "quoting",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_016_u_0287_0",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T17:45:17+00:00",
+    "tool_call_count": 5,
+    "user_id": "u_0287"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T21:24:47+00:00",
+    "page": "orders",
+    "query_count": 4,
+    "session_id": "cs_2026-07-08_acct_016_u_0287_1",
+    "shipment_ids": [],
+    "started_at": "2026-07-08T21:13:48+00:00",
+    "tool_call_count": 1,
+    "user_id": "u_0287"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T16:32:01+00:00",
+    "page": "reports",
+    "query_count": 6,
+    "session_id": "cs_2026-07-08_acct_016_u_0283_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0024"
+    ],
+    "started_at": "2026-07-08T16:14:14+00:00",
+    "tool_call_count": 0,
+    "user_id": "u_0283"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T18:06:43+00:00",
+    "page": "tracking",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_016_u_0284_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0025"
+    ],
+    "started_at": "2026-07-08T17:59:40+00:00",
+    "tool_call_count": 4,
+    "user_id": "u_0284"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T19:34:36+00:00",
+    "page": "quoting",
+    "query_count": 4,
+    "session_id": "cs_2026-07-08_acct_016_u_0289_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0026"
+    ],
+    "started_at": "2026-07-08T19:23:20+00:00",
+    "tool_call_count": 6,
+    "user_id": "u_0289"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T19:06:01+00:00",
+    "page": "quoting",
+    "query_count": 4,
+    "session_id": "cs_2026-07-08_acct_016_u_0289_1",
+    "shipment_ids": [
+     "shp_2026-07-08_0027"
+    ],
+    "started_at": "2026-07-08T19:00:33+00:00",
+    "tool_call_count": 10,
+    "user_id": "u_0289"
+   },
+   {
+    "account_id": "acct_016",
+    "ended_at": "2026-07-08T18:17:08+00:00",
+    "page": "tracking",
+    "query_count": 8,
+    "session_id": "cs_2026-07-08_acct_016_u_0291_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0028"
+    ],
+    "started_at": "2026-07-08T18:01:15+00:00",
+    "tool_call_count": 6,
+    "user_id": "u_0291"
+   },
+   {
+    "account_id": "acct_017",
+    "ended_at": "2026-07-08T18:28:08+00:00",
+    "page": "quoting",
+    "query_count": 3,
+    "session_id": "cs_2026-07-08_acct_017_u_0307_0",
+    "shipment_ids": [
+     "shp_2026-07-08_0029"
+    ],
+    "started_at": "2026-07-08T18:13:54+00:00",
+    "tool_call_count": 7,
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_017",
+    "ended_at": "2026-07-08T17:04:27+00:00",
+    "page": "tracking",
+    "query_count": 7,
+    "session_id": "cs_2026-07-08_acct_017_u_0307_1",
+    "shipment_ids": [
+     "shp_2026-07-08_0030"
+    ],
+    "started_at": "2026-07-08T16:48:56+00:00",
+    "tool_call_count": 10,
+    "user_id": "u_0307"
+   }
+  ]
+ },
+ "source": "langfuse"
+}

@@ -1,0 +1,571 @@
+{
+ "date": "2026-08-09",
+ "fetched_at": "2026-08-14T01:52:48+00:00",
+ "mode": "mock",
+ "payload": {
+  "account_sessions": [
+   {
+    "account_id": "acct_002",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_005",
+    "distinct_tools": 1,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_006",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_009",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_011",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_013",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_014",
+    "distinct_tools": 3,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_015",
+    "distinct_tools": 1,
+    "sessions": 1
+   },
+   {
+    "account_id": "acct_018",
+    "distinct_tools": 3,
+    "sessions": 1
+   }
+  ],
+  "actors": [
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0012"
+   },
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0013"
+   },
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0015"
+   },
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0016"
+   },
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0019"
+   },
+   {
+    "account_id": "acct_002",
+    "user_id": "u_0022"
+   },
+   {
+    "account_id": "acct_005",
+    "user_id": "u_0060"
+   },
+   {
+    "account_id": "acct_005",
+    "user_id": "u_0063"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0069"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0070"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0071"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0072"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0075"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0077"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0078"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0080"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0081"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0082"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0088"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0090"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0091"
+   },
+   {
+    "account_id": "acct_006",
+    "user_id": "u_0092"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0128"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0129"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0131"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0139"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0141"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0142"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0146"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0149"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0150"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0151"
+   },
+   {
+    "account_id": "acct_009",
+    "user_id": "u_0153"
+   },
+   {
+    "account_id": "acct_011",
+    "user_id": "u_0188"
+   },
+   {
+    "account_id": "acct_011",
+    "user_id": "u_0189"
+   },
+   {
+    "account_id": "acct_011",
+    "user_id": "u_0192"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0223"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0227"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0229"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0231"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0233"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0237"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0238"
+   },
+   {
+    "account_id": "acct_013",
+    "user_id": "u_0239"
+   },
+   {
+    "account_id": "acct_014",
+    "user_id": "u_0241"
+   },
+   {
+    "account_id": "acct_014",
+    "user_id": "u_0242"
+   },
+   {
+    "account_id": "acct_014",
+    "user_id": "u_0245"
+   },
+   {
+    "account_id": "acct_014",
+    "user_id": "u_0248"
+   },
+   {
+    "account_id": "acct_015",
+    "user_id": "u_0264"
+   },
+   {
+    "account_id": "acct_015",
+    "user_id": "u_0272"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0314"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0316"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0318"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0323"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0324"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0330"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0331"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0332"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0335"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0337"
+   },
+   {
+    "account_id": "acct_018",
+    "user_id": "u_0338"
+   }
+  ],
+  "tools": [
+   {
+    "by_account": [
+     {
+      "account_id": "acct_002",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_005",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_006",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_009",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_011",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_013",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_014",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_015",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_018",
+      "calls": 1,
+      "errors": 0
+     }
+    ],
+    "calls": 9,
+    "latency_ms": {
+     "p50": 2438,
+     "p95": 9306
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 9,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "get_rates"
+   },
+   {
+    "by_account": [
+     {
+      "account_id": "acct_002",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_006",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_009",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_011",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_013",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_014",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_018",
+      "calls": 1,
+      "errors": 0
+     }
+    ],
+    "calls": 6,
+    "latency_ms": {
+     "p50": 296,
+     "p95": 1192
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 5,
+     "upstream_error": 1,
+     "user_error": 0
+    },
+    "tool": "get_carriers"
+   },
+   {
+    "by_account": [
+     {
+      "account_id": "acct_002",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_006",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_009",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_011",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_013",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_014",
+      "calls": 1,
+      "errors": 0
+     },
+     {
+      "account_id": "acct_018",
+      "calls": 1,
+      "errors": 0
+     }
+    ],
+    "calls": 6,
+    "latency_ms": {
+     "p50": 407,
+     "p95": 1407
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 6,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "get_tracking"
+   },
+   {
+    "by_account": [],
+    "calls": 2,
+    "latency_ms": {
+     "p50": 4776,
+     "p95": 14688
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 2,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "freightpop_create_shipment"
+   },
+   {
+    "by_account": [],
+    "calls": 3,
+    "latency_ms": {
+     "p50": 401,
+     "p95": 1469
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 3,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "freightpop_get_shipment_details"
+   },
+   {
+    "by_account": [],
+    "calls": 1,
+    "latency_ms": {
+     "p50": 6318,
+     "p95": 26732
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 0,
+     "upstream_error": 1,
+     "user_error": 0
+    },
+    "tool": "freightpop_import_orders"
+   },
+   {
+    "by_account": [],
+    "calls": 2,
+    "latency_ms": {
+     "p50": 842,
+     "p95": 3431
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 2,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "get_packaging_rules"
+   },
+   {
+    "by_account": [],
+    "calls": 2,
+    "latency_ms": {
+     "p50": 562,
+     "p95": 2570
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 2,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "freightpop_validate_address"
+   },
+   {
+    "by_account": [],
+    "calls": 1,
+    "latency_ms": {
+     "p50": 611,
+     "p95": 1676
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 1,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "search_wms_picking_status"
+   },
+   {
+    "by_account": [],
+    "calls": 1,
+    "latency_ms": {
+     "p50": 774,
+     "p95": 1993
+    },
+    "outcomes": {
+     "rate_limited": 0,
+     "success": 1,
+     "upstream_error": 0,
+     "user_error": 0
+    },
+    "tool": "get_wms_inventory_by_item"
+   }
+  ]
+ },
+ "source": "datadog"
+}

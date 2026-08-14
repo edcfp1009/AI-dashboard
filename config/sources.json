@@ -1,0 +1,5 @@
+{
+  "datadog": { "mode": "mock" },
+  "langfuse": { "mode": "mock" },
+  "mixpanel": { "mode": "mock" }
+}

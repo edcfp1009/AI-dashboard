@@ -1,0 +1,1137 @@
+{
+ "date": "2026-08-11",
+ "fetched_at": "2026-08-14T01:52:48+00:00",
+ "mode": "mock",
+ "payload": {
+  "enablement": [
+   {
+    "account_id": "acct_001",
+    "enabled_date": "2026-08-05",
+    "enabled_users": [
+     "u_0000",
+     "u_0001",
+     "u_0002",
+     "u_0003",
+     "u_0004",
+     "u_0005",
+     "u_0006",
+     "u_0007",
+     "u_0008",
+     "u_0009",
+     "u_0010"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 11
+   },
+   {
+    "account_id": "acct_002",
+    "enabled_date": "2026-07-26",
+    "enabled_users": [
+     "u_0011",
+     "u_0012",
+     "u_0013",
+     "u_0014",
+     "u_0015",
+     "u_0016",
+     "u_0017",
+     "u_0018",
+     "u_0019",
+     "u_0020",
+     "u_0021",
+     "u_0022"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 12
+   },
+   {
+    "account_id": "acct_003",
+    "enabled_date": "2026-05-25",
+    "enabled_users": [
+     "u_0023",
+     "u_0024",
+     "u_0025",
+     "u_0026",
+     "u_0027",
+     "u_0028",
+     "u_0029",
+     "u_0030",
+     "u_0031"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 9
+   },
+   {
+    "account_id": "acct_004",
+    "enabled_date": "2026-07-10",
+    "enabled_users": [
+     "u_0032",
+     "u_0033",
+     "u_0034",
+     "u_0035",
+     "u_0036",
+     "u_0037",
+     "u_0038",
+     "u_0039",
+     "u_0040",
+     "u_0041",
+     "u_0042",
+     "u_0043",
+     "u_0044",
+     "u_0045",
+     "u_0046",
+     "u_0047",
+     "u_0048"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 17
+   },
+   {
+    "account_id": "acct_005",
+    "enabled_date": "2026-05-17",
+    "enabled_users": [
+     "u_0049",
+     "u_0050",
+     "u_0051",
+     "u_0052",
+     "u_0053",
+     "u_0054",
+     "u_0055",
+     "u_0056",
+     "u_0057",
+     "u_0058",
+     "u_0059",
+     "u_0060",
+     "u_0061",
+     "u_0062",
+     "u_0063",
+     "u_0064"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 16
+   },
+   {
+    "account_id": "acct_006",
+    "enabled_date": "2026-05-25",
+    "enabled_users": [
+     "u_0065",
+     "u_0066",
+     "u_0067",
+     "u_0068",
+     "u_0069",
+     "u_0070",
+     "u_0071",
+     "u_0072",
+     "u_0073",
+     "u_0074",
+     "u_0075",
+     "u_0076",
+     "u_0077",
+     "u_0078",
+     "u_0079",
+     "u_0080",
+     "u_0081",
+     "u_0082",
+     "u_0083",
+     "u_0084",
+     "u_0085",
+     "u_0086",
+     "u_0087",
+     "u_0088",
+     "u_0089",
+     "u_0090",
+     "u_0091",
+     "u_0092",
+     "u_0093",
+     "u_0094",
+     "u_0095",
+     "u_0096"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 32
+   },
+   {
+    "account_id": "acct_007",
+    "enabled_date": "2026-05-11",
+    "enabled_users": [
+     "u_0097",
+     "u_0098",
+     "u_0099",
+     "u_0100",
+     "u_0101",
+     "u_0102",
+     "u_0103",
+     "u_0104",
+     "u_0105",
+     "u_0106",
+     "u_0107",
+     "u_0108",
+     "u_0109",
+     "u_0110"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 14
+   },
+   {
+    "account_id": "acct_008",
+    "enabled_date": "2026-06-26",
+    "enabled_users": [
+     "u_0111",
+     "u_0112",
+     "u_0113",
+     "u_0114",
+     "u_0115",
+     "u_0116",
+     "u_0117",
+     "u_0118",
+     "u_0119",
+     "u_0120",
+     "u_0121",
+     "u_0122",
+     "u_0123",
+     "u_0124",
+     "u_0125",
+     "u_0126",
+     "u_0127"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 17
+   },
+   {
+    "account_id": "acct_009",
+    "enabled_date": "2026-06-25",
+    "enabled_users": [
+     "u_0128",
+     "u_0129",
+     "u_0130",
+     "u_0131",
+     "u_0132",
+     "u_0133",
+     "u_0134",
+     "u_0135",
+     "u_0136",
+     "u_0137",
+     "u_0138",
+     "u_0139",
+     "u_0140",
+     "u_0141",
+     "u_0142",
+     "u_0143",
+     "u_0144",
+     "u_0145",
+     "u_0146",
+     "u_0147",
+     "u_0148",
+     "u_0149",
+     "u_0150",
+     "u_0151",
+     "u_0152",
+     "u_0153"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 26
+   },
+   {
+    "account_id": "acct_010",
+    "enabled_date": "2026-06-01",
+    "enabled_users": [
+     "u_0154",
+     "u_0155",
+     "u_0156",
+     "u_0157",
+     "u_0158",
+     "u_0159",
+     "u_0160",
+     "u_0161",
+     "u_0162",
+     "u_0163",
+     "u_0164",
+     "u_0165",
+     "u_0166",
+     "u_0167",
+     "u_0168",
+     "u_0169",
+     "u_0170",
+     "u_0171",
+     "u_0172",
+     "u_0173",
+     "u_0174",
+     "u_0175",
+     "u_0176",
+     "u_0177",
+     "u_0178",
+     "u_0179",
+     "u_0180",
+     "u_0181",
+     "u_0182",
+     "u_0183",
+     "u_0184",
+     "u_0185",
+     "u_0186"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 33
+   },
+   {
+    "account_id": "acct_011",
+    "enabled_date": "2026-05-30",
+    "enabled_users": [
+     "u_0187",
+     "u_0188",
+     "u_0189",
+     "u_0190",
+     "u_0191",
+     "u_0192",
+     "u_0193",
+     "u_0194",
+     "u_0195"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 9
+   },
+   {
+    "account_id": "acct_012",
+    "enabled_date": "2026-05-27",
+    "enabled_users": [
+     "u_0196",
+     "u_0197",
+     "u_0198",
+     "u_0199",
+     "u_0200",
+     "u_0201",
+     "u_0202",
+     "u_0203",
+     "u_0204",
+     "u_0205",
+     "u_0206",
+     "u_0207",
+     "u_0208",
+     "u_0209",
+     "u_0210",
+     "u_0211",
+     "u_0212",
+     "u_0213",
+     "u_0214",
+     "u_0215",
+     "u_0216",
+     "u_0217",
+     "u_0218",
+     "u_0219",
+     "u_0220",
+     "u_0221",
+     "u_0222"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 27
+   },
+   {
+    "account_id": "acct_013",
+    "enabled_date": "2026-07-02",
+    "enabled_users": [
+     "u_0223",
+     "u_0224",
+     "u_0225",
+     "u_0226",
+     "u_0227",
+     "u_0228",
+     "u_0229",
+     "u_0230",
+     "u_0231",
+     "u_0232",
+     "u_0233",
+     "u_0234",
+     "u_0235",
+     "u_0236",
+     "u_0237",
+     "u_0238",
+     "u_0239",
+     "u_0240"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 18
+   },
+   {
+    "account_id": "acct_014",
+    "enabled_date": "2026-06-21",
+    "enabled_users": [
+     "u_0241",
+     "u_0242",
+     "u_0243",
+     "u_0244",
+     "u_0245",
+     "u_0246",
+     "u_0247",
+     "u_0248",
+     "u_0249",
+     "u_0250"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 10
+   },
+   {
+    "account_id": "acct_015",
+    "enabled_date": "2026-07-19",
+    "enabled_users": [
+     "u_0251",
+     "u_0252",
+     "u_0253",
+     "u_0254",
+     "u_0255",
+     "u_0256",
+     "u_0257",
+     "u_0258",
+     "u_0259",
+     "u_0260",
+     "u_0261",
+     "u_0262",
+     "u_0263",
+     "u_0264",
+     "u_0265",
+     "u_0266",
+     "u_0267",
+     "u_0268",
+     "u_0269",
+     "u_0270",
+     "u_0271",
+     "u_0272",
+     "u_0273",
+     "u_0274",
+     "u_0275",
+     "u_0276",
+     "u_0277"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 27
+   },
+   {
+    "account_id": "acct_016",
+    "enabled_date": "2026-05-11",
+    "enabled_users": [
+     "u_0278",
+     "u_0279",
+     "u_0280",
+     "u_0281",
+     "u_0282",
+     "u_0283",
+     "u_0284",
+     "u_0285",
+     "u_0286",
+     "u_0287",
+     "u_0288",
+     "u_0289",
+     "u_0290",
+     "u_0291",
+     "u_0292",
+     "u_0293",
+     "u_0294",
+     "u_0295",
+     "u_0296",
+     "u_0297",
+     "u_0298"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 21
+   },
+   {
+    "account_id": "acct_017",
+    "enabled_date": "2026-06-01",
+    "enabled_users": [
+     "u_0299",
+     "u_0300",
+     "u_0301",
+     "u_0302",
+     "u_0303",
+     "u_0304",
+     "u_0305",
+     "u_0306",
+     "u_0307",
+     "u_0308",
+     "u_0309",
+     "u_0310",
+     "u_0311",
+     "u_0312"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 14
+   },
+   {
+    "account_id": "acct_018",
+    "enabled_date": "2026-07-05",
+    "enabled_users": [
+     "u_0313",
+     "u_0314",
+     "u_0315",
+     "u_0316",
+     "u_0317",
+     "u_0318",
+     "u_0319",
+     "u_0320",
+     "u_0321",
+     "u_0322",
+     "u_0323",
+     "u_0324",
+     "u_0325",
+     "u_0326",
+     "u_0327",
+     "u_0328",
+     "u_0329",
+     "u_0330",
+     "u_0331",
+     "u_0332",
+     "u_0333",
+     "u_0334",
+     "u_0335",
+     "u_0336",
+     "u_0337",
+     "u_0338",
+     "u_0339",
+     "u_0340"
+    ],
+    "features": [
+     "copilot",
+     "mcp",
+     "accessorial"
+    ],
+    "seats_enabled": 28
+   }
+  ],
+  "events": [
+   {
+    "account_id": "acct_003",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0001",
+    "ts": "2026-08-11T16:34:55+00:00",
+    "user_id": "u_0025"
+   },
+   {
+    "account_id": "acct_004",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0002",
+    "ts": "2026-08-11T15:45:06+00:00",
+    "user_id": "u_0035"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0003",
+    "ts": "2026-08-11T15:09:00+00:00",
+    "user_id": "u_0049"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": null,
+    "ts": "2026-08-11T22:19:58+00:00",
+    "user_id": "u_0050"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "copilot_opened",
+    "page": "reports",
+    "shipment_id": "shp_2026-08-11_0005",
+    "ts": "2026-08-11T13:19:31+00:00",
+    "user_id": "u_0050"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0006",
+    "ts": "2026-08-11T22:09:07+00:00",
+    "user_id": "u_0051"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": null,
+    "ts": "2026-08-11T17:51:36+00:00",
+    "user_id": "u_0086"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0008",
+    "ts": "2026-08-11T21:40:50+00:00",
+    "user_id": "u_0085"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0009",
+    "ts": "2026-08-11T16:21:55+00:00",
+    "user_id": "u_0096"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0010",
+    "ts": "2026-08-11T21:26:58+00:00",
+    "user_id": "u_0075"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0011",
+    "ts": "2026-08-11T18:07:29+00:00",
+    "user_id": "u_0072"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0012",
+    "ts": "2026-08-11T15:52:51+00:00",
+    "user_id": "u_0081"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": null,
+    "ts": "2026-08-11T16:28:00+00:00",
+    "user_id": "u_0068"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0014",
+    "ts": "2026-08-11T21:35:16+00:00",
+    "user_id": "u_0076"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "manual_task_completed",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0014",
+    "ts": "2026-08-11T21:51:18+00:00",
+    "user_id": "u_0076"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0015",
+    "ts": "2026-08-11T20:40:35+00:00",
+    "user_id": "u_0067"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "manual_task_completed",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0015",
+    "ts": "2026-08-11T21:00:27+00:00",
+    "user_id": "u_0067"
+   },
+   {
+    "account_id": "acct_006",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0016",
+    "ts": "2026-08-11T16:41:57+00:00",
+    "user_id": "u_0067"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0017",
+    "ts": "2026-08-11T13:10:12+00:00",
+    "user_id": "u_0151"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0018",
+    "ts": "2026-08-11T22:13:12+00:00",
+    "user_id": "u_0146"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0019",
+    "ts": "2026-08-11T19:35:23+00:00",
+    "user_id": "u_0135"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": null,
+    "ts": "2026-08-11T22:18:04+00:00",
+    "user_id": "u_0135"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0021",
+    "ts": "2026-08-11T17:54:29+00:00",
+    "user_id": "u_0143"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0022",
+    "ts": "2026-08-11T15:45:46+00:00",
+    "user_id": "u_0147"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": null,
+    "ts": "2026-08-11T18:33:24+00:00",
+    "user_id": "u_0150"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "copilot_opened",
+    "page": "reports",
+    "shipment_id": "shp_2026-08-11_0024",
+    "ts": "2026-08-11T17:14:22+00:00",
+    "user_id": "u_0149"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "manual_task_completed",
+    "page": "reports",
+    "shipment_id": "shp_2026-08-11_0024",
+    "ts": "2026-08-11T17:29:55+00:00",
+    "user_id": "u_0149"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0025",
+    "ts": "2026-08-11T20:35:10+00:00",
+    "user_id": "u_0238"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0026",
+    "ts": "2026-08-11T15:56:13+00:00",
+    "user_id": "u_0236"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0027",
+    "ts": "2026-08-11T13:56:05+00:00",
+    "user_id": "u_0239"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "copilot_opened",
+    "page": "reports",
+    "shipment_id": "shp_2026-08-11_0028",
+    "ts": "2026-08-11T20:47:03+00:00",
+    "user_id": "u_0231"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0029",
+    "ts": "2026-08-11T16:41:07+00:00",
+    "user_id": "u_0223"
+   },
+   {
+    "account_id": "acct_014",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0030",
+    "ts": "2026-08-11T17:03:32+00:00",
+    "user_id": "u_0243"
+   },
+   {
+    "account_id": "acct_014",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0031",
+    "ts": "2026-08-11T17:59:51+00:00",
+    "user_id": "u_0241"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "copilot_opened",
+    "page": "reports",
+    "shipment_id": null,
+    "ts": "2026-08-11T18:16:55+00:00",
+    "user_id": "u_0256"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0033",
+    "ts": "2026-08-11T17:02:30+00:00",
+    "user_id": "u_0271"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0034",
+    "ts": "2026-08-11T15:56:22+00:00",
+    "user_id": "u_0271"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0035",
+    "ts": "2026-08-11T16:04:10+00:00",
+    "user_id": "u_0253"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0036",
+    "ts": "2026-08-11T15:23:46+00:00",
+    "user_id": "u_0253"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "manual_task_completed",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0036",
+    "ts": "2026-08-11T15:56:36+00:00",
+    "user_id": "u_0253"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": null,
+    "ts": "2026-08-11T18:15:53+00:00",
+    "user_id": "u_0287"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0038",
+    "ts": "2026-08-11T21:06:13+00:00",
+    "user_id": "u_0287"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": null,
+    "ts": "2026-08-11T22:24:55+00:00",
+    "user_id": "u_0286"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "shipments",
+    "shipment_id": "shp_2026-08-11_0040",
+    "ts": "2026-08-11T20:39:24+00:00",
+    "user_id": "u_0296"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0041",
+    "ts": "2026-08-11T18:45:55+00:00",
+    "user_id": "u_0283"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0042",
+    "ts": "2026-08-11T22:01:59+00:00",
+    "user_id": "u_0298"
+   },
+   {
+    "account_id": "acct_017",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0043",
+    "ts": "2026-08-11T17:55:09+00:00",
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_017",
+    "event": "manual_task_completed",
+    "page": "orders",
+    "shipment_id": "shp_2026-08-11_0043",
+    "ts": "2026-08-11T18:05:40+00:00",
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_017",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": null,
+    "ts": "2026-08-11T18:50:28+00:00",
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "orders",
+    "shipment_id": null,
+    "ts": "2026-08-11T18:36:58+00:00",
+    "user_id": "u_0333"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "reports",
+    "shipment_id": null,
+    "ts": "2026-08-11T17:14:36+00:00",
+    "user_id": "u_0333"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0047",
+    "ts": "2026-08-11T17:40:08+00:00",
+    "user_id": "u_0339"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0048",
+    "ts": "2026-08-11T15:55:06+00:00",
+    "user_id": "u_0334"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": null,
+    "ts": "2026-08-11T14:22:22+00:00",
+    "user_id": "u_0324"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "tracking",
+    "shipment_id": "shp_2026-08-11_0050",
+    "ts": "2026-08-11T21:02:40+00:00",
+    "user_id": "u_0327"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "copilot_opened",
+    "page": "quoting",
+    "shipment_id": null,
+    "ts": "2026-08-11T13:29:47+00:00",
+    "user_id": "u_0329"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0003",
+    "ts": "2026-08-11T21:12:58+00:00",
+    "user_id": "u_0049"
+   },
+   {
+    "account_id": "acct_005",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0006",
+    "ts": "2026-08-11T13:03:44+00:00",
+    "user_id": "u_0051"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0017",
+    "ts": "2026-08-11T20:25:12+00:00",
+    "user_id": "u_0151"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "accessorial_accepted",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0017",
+    "ts": "2026-08-11T20:27:12+00:00",
+    "user_id": "u_0151"
+   },
+   {
+    "account_id": "acct_009",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0020",
+    "ts": "2026-08-11T17:16:51+00:00",
+    "user_id": "u_0135"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0028",
+    "ts": "2026-08-11T14:05:14+00:00",
+    "user_id": "u_0231"
+   },
+   {
+    "account_id": "acct_013",
+    "event": "accessorial_accepted",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0028",
+    "ts": "2026-08-11T14:07:14+00:00",
+    "user_id": "u_0231"
+   },
+   {
+    "account_id": "acct_015",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0033",
+    "ts": "2026-08-11T21:13:51+00:00",
+    "user_id": "u_0271"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0037",
+    "ts": "2026-08-11T13:26:14+00:00",
+    "user_id": "u_0287"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0042",
+    "ts": "2026-08-11T17:26:04+00:00",
+    "user_id": "u_0298"
+   },
+   {
+    "account_id": "acct_016",
+    "event": "accessorial_accepted",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0042",
+    "ts": "2026-08-11T17:28:04+00:00",
+    "user_id": "u_0298"
+   },
+   {
+    "account_id": "acct_017",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0043",
+    "ts": "2026-08-11T17:08:15+00:00",
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_017",
+    "event": "accessorial_accepted",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0043",
+    "ts": "2026-08-11T17:10:15+00:00",
+    "user_id": "u_0307"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "accessorial_validator_clicked",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0045",
+    "ts": "2026-08-11T13:25:56+00:00",
+    "user_id": "u_0333"
+   },
+   {
+    "account_id": "acct_018",
+    "event": "accessorial_accepted",
+    "page": "quoting",
+    "shipment_id": "shp_2026-08-11_0045",
+    "ts": "2026-08-11T13:27:56+00:00",
+    "user_id": "u_0333"
+   }
+  ]
+ },
+ "source": "mixpanel"
+}
