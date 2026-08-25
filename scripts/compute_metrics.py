@@ -12,7 +12,7 @@ import json
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
-from common import SITE_DIR, all_snapshot_dates, load_config, read_snapshot, read_status
+from common import SITE_DIR, all_snapshot_dates, load_config, read_snapshot, read_status, utc_today
 
 WINDOW = 7  # days for "current" KPIs
 
@@ -373,7 +373,10 @@ def main():
         last = st.get("last_success")
         stale = None
         if last:
-            stale = (datetime.strptime(data_through, "%Y-%m-%d") - datetime.strptime(last, "%Y-%m-%d")).days
+            # Measured against today, not data_through: data_through is itself
+            # derived from the snapshots on disk, so a fully frozen pipeline
+            # would otherwise report stale_days=0 forever and look healthy.
+            stale = (datetime.strptime(utc_today(), "%Y-%m-%d") - datetime.strptime(last, "%Y-%m-%d")).days
         source_status[source] = {"mode": mode, "last_success": last, "stale_days": stale, "last_error": st.get("last_error")}
 
     metrics = {

@@ -5,9 +5,9 @@
   "mode": "mock"
  },
  "langfuse": {
-  "last_error": null,
+  "last_error": "2026-08-24: missing env vars: LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY",
   "last_success": "2026-08-13",
-  "mode": "mock"
+  "mode": "live"
  },
  "mixpanel": {
   "last_error": null,

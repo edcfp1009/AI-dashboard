@@ -23,6 +23,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      failed_sources: ${{ steps.srcstatus.outputs.failed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,7 +37,7 @@ jobs:
           DD_SITE: ${{ vars.DD_SITE || 'datadoghq.com' }}
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
-          LANGFUSE_HOST: ${{ vars.LANGFUSE_HOST || 'https://cloud.langfuse.com' }}
+          LANGFUSE_HOST: ${{ vars.LANGFUSE_HOST || 'https://us.cloud.langfuse.com' }}
           MIXPANEL_SA_USERNAME: ${{ secrets.MIXPANEL_SA_USERNAME }}
           MIXPANEL_SA_SECRET: ${{ secrets.MIXPANEL_SA_SECRET }}
           MIXPANEL_PROJECT_ID: ${{ secrets.MIXPANEL_PROJECT_ID }}
@@ -51,6 +53,25 @@ jobs:
           git add data/ site/metrics.json
           git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F) [skip ci]"
           git push
+
+      # Recorded as a job output rather than failing here: a red step would skip
+      # the deploy job below, which is exactly the freeze we're avoiding. The
+      # flag-sources job at the end of the run reports it instead.
+      - name: Collect source errors
+        id: srcstatus
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          status = json.load(open("data/status.json"))
+          # Flattened to one line: $GITHUB_OUTPUT is newline-delimited, and a
+          # traceback in last_error would otherwise corrupt the whole file.
+          bad = [
+              f"{s}: {' '.join(str(v['last_error']).split())}"
+              for s, v in status.items()
+              if v.get("last_error")
+          ]
+          print("failed=" + " | ".join(bad))
+          EOF
 
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -68,3 +89,14 @@ jobs:
           enablement: true
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Reds the run when a live source is broken — after the dashboard has already
+  # been rebuilt and deployed off the committed snapshots.
+  flag-sources:
+    needs: [refresh, deploy]
+    if: always() && needs.refresh.outputs.failed_sources != ''
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error title=Live source failure::${{ needs.refresh.outputs.failed_sources }}"
+          exit 1

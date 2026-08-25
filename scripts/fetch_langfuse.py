@@ -9,7 +9,10 @@ up as an "instrumentation gap" card on the dashboard rather than a wrong number)
 - accessorial agent traces carry metadata.shipment_id + metadata.recommended,
   distinguished by name/tags containing "accessorial"
 
-Env: LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST (default cloud.langfuse.com)
+Env: LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST
+(LANGFUSE_BASE_URL is accepted as an alias.) Default host is the US region:
+this project lives on us.cloud.langfuse.com, and Langfuse keys are region-scoped,
+so an EU host returns 401 for otherwise-valid US keys.
 """
 from __future__ import annotations
 
@@ -47,7 +50,11 @@ def classify(trace: dict) -> str | None:
 
 def fetch_day(date_str: str) -> dict:
     env = require_env("LANGFUSE_PUBLIC_KEY", "LANGFUSE_SECRET_KEY")
-    host = os.environ.get("LANGFUSE_HOST", "https://cloud.langfuse.com").rstrip("/")
+    host = (
+        os.environ.get("LANGFUSE_HOST")
+        or os.environ.get("LANGFUSE_BASE_URL")
+        or "https://us.cloud.langfuse.com"
+    ).rstrip("/")
     auth = (env["LANGFUSE_PUBLIC_KEY"], env["LANGFUSE_SECRET_KEY"])
     start, end = day_bounds_utc(date_str)
     window = {"fromTimestamp": start.isoformat(), "toTimestamp": end.isoformat()}

@@ -21,7 +21,16 @@ from datetime import datetime, timedelta
 import fetch_datadog
 import fetch_langfuse
 import fetch_mixpanel
-from common import date_range, load_config, update_status, utc_yesterday, with_retry, write_snapshot
+from common import (
+    all_snapshot_dates,
+    date_range,
+    load_config,
+    read_snapshot,
+    update_status,
+    utc_yesterday,
+    with_retry,
+    write_snapshot,
+)
 
 FETCHERS = {
     "datadog": fetch_datadog.fetch_day,
@@ -48,8 +57,7 @@ def main():
         dates = [args.date or utc_yesterday()]
 
     config = load_config("sources.json")
-    live_sources = [s for s, c in config.items() if c.get("mode") == "live"]
-    successes, failures = [], []
+    failures = []
 
     for source in FETCHERS:
         mode = config.get(source, {}).get("mode", "mock")
@@ -62,21 +70,32 @@ def main():
                 write_snapshot(source, d, payload, mode="live")
                 update_status(source, mode="live", ok=True, date_str=d)
                 print(f"[{source}] {d} OK")
-                successes.append(source)
             except Exception as e:
                 traceback.print_exc()
                 update_status(source, mode="live", ok=False, date_str=d, error=str(e))
                 print(f"[{source}] {d} FAILED: {e}", file=sys.stderr)
                 failures.append(source)
 
-    # mock sources still get a status entry so the dashboard can label them
+    # Mock sources still get a status entry so the dashboard can label them.
+    # last_success is the newest snapshot actually on disk, not the run date —
+    # stale_days is measured against today, so claiming the run date would make
+    # a mock source with month-old fixtures render as fresh.
     for source in FETCHERS:
         if config.get(source, {}).get("mode", "mock") == "mock":
-            update_status(source, mode="mock", ok=True, date_str=dates[-1])
+            newest = next(
+                (d for d in reversed(all_snapshot_dates()) if read_snapshot(source, d) is not None),
+                None,
+            )
+            if newest:
+                update_status(source, mode="mock", ok=True, date_str=newest)
 
-    if live_sources and not successes and failures:
-        print("all live sources failed", file=sys.stderr)
-        sys.exit(1)
+    # A failing live source is recorded in data/status.json (the dashboard renders
+    # it as a stale/errored pill) but must not abort the run: compute_metrics and
+    # the Pages deploy still need to happen off the snapshots already committed.
+    # The workflow's flag-sources job reds the run afterwards, so a broken
+    # source is still loud without freezing the whole dashboard.
+    if failures:
+        print(f"live source failures: {', '.join(sorted(set(failures)))}", file=sys.stderr)
 
 
 if __name__ == "__main__":

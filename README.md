@@ -20,7 +20,7 @@ python3 -m http.server -d site 8000              # open http://localhost:8000
 Each source flips independently — no code changes:
 
 1. Get the keys (see `.env.example` for where each key is created).
-2. Add them as **repo secrets** (Settings → Secrets and variables → Actions).
+2. Add them as **repo secrets** (Settings → Secrets and variables → Actions). Secrets cannot be set from a Claude Code session — this is a manual step, and until it's done a source in `live` mode fails every run with `missing env vars`.
 3. Edit `config/sources.json`: `"langfuse": { "mode": "live" }`.
 4. Trigger the workflow manually (Actions → daily-refresh → Run workflow) or wait for the next daily run.
 
@@ -52,6 +52,7 @@ data/status.json            per-source freshness/error state (drives the header 
 Rules that keep this maintainable:
 
 - **Fetchers never compute; compute never fetches.** The dashboard can always be rebuilt from committed history.
+- **A broken live source never freezes the dashboard.** `fetch_all.py` records the error in `data/status.json` and exits 0, so compute + deploy still run off committed snapshots; the workflow's `flag-sources` job reds the run afterwards so the breakage is still visible.
 - **A missing metric is a `null` + an entry in `gaps[]`, never a fabricated number.** The dashboard renders those as "instrumentation gap" cards — that list is the tracking backlog.
 - The metric day is the **UTC calendar day**; the KPI window is the last 7 full UTC days.
 
